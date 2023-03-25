@@ -8,7 +8,7 @@ public class Main {
 
         System.out.print("password: ");
         Scanner in=new Scanner(System.in);
-        String password=in.next();
+        String password=in.nextLine();
         System.out.println("Number of changes: "+Solution.numberOfChanges(password));
 
     }
